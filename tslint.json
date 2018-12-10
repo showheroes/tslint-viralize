@@ -1,0 +1,85 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rulesDirectory": [],
+  "rules": {
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "deprecation": {
+      "severity": "warn"
+    },
+    "indent": [
+      true,
+      "spaces",
+      4
+    ],
+    "interface-over-type-literal": true,
+    "interface-name": false,
+    "jsdoc-format": [
+      true,
+      "check-multiline-start"
+    ],
+    "max-classes-per-file": false,
+    "max-line-length": [
+      true,
+      {
+        "limit": 80,
+        "ignore-pattern": "^import|^export|'.*'[;|,]$"
+      }
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "protected-static-field",
+          "private-static-field",
+          "public-instance-field",
+          "protected-instance-field",
+          "private-instance-field",
+          "public-static-method",
+          "protected-static-method",
+          "private-static-method",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "no-inferrable-types": [
+      true,
+      "ignore-params"
+    ],
+    "no-non-null-assertion": true,
+    "no-null-keyword": false,
+    "no-use-before-declare": true,
+    "object-literal-sort-keys": false,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "radix": true,
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ]
+  }
+}

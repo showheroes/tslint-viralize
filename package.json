@@ -1,0 +1,32 @@
+{
+  "name": "tslint-viralize",
+  "version": "1.0.0",
+  "description": "Tslint rules to enforce Viralize standards and best practices during development of typescript project in Viralize",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viralize/tslint-viralize.git"
+  },
+  "author": "Lorenzo Bugiani (lorenzo.bugiani@viralize.com)",
+  "license": "MIT",
+  "main": "tslint.json",
+  "keywords": [
+    "tslint",
+    "tslintconfig",
+    "config",
+    "viralize",
+    "typescript"
+  ],
+  "scripts": {
+    "release:major": "node ./scripts/major",
+    "release:minor": "node ./scripts/minor",
+    "release:patch": "node ./scripts/patch"
+  },
+  "peerDependencies": {
+    "tslint": "^5.11.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "release-it": "^8.2.0",
+    "semver": "^5.6.0"
+  }
+}
