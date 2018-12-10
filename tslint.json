@@ -2,7 +2,7 @@
   "defaultSeverity": "error",
   "extends": [
     "tslint:recommended",
-    "tslint:latest",
+    "tslint:latest"
   ],
   "rulesDirectory": [],
   "rules": {
