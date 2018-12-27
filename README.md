@@ -33,3 +33,5 @@ Tslint rules to enforce Viralize standards and best practices during development
   ```
 
 2. Add `"extends": "tslint-viralize"` to your tslint.json.
+
+Some of the rules require type information. So in order to provide as much value as possible run TSLint with [type-checker](https://palantir.github.io/tslint/usage/type-checking/)
