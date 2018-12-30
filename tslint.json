@@ -17,6 +17,7 @@
     "interface-name": false,
     "jsdoc-format": [ true, "check-multiline-start" ],
     "linebreak-style": [ true, "LF" ],
+    "match-default-export-name": false,
     "max-classes-per-file": false,
     "max-line-length": [ true, {
       "limit": 80,

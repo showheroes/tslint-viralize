@@ -15,3 +15,10 @@
 ## 3.0.0
 
 - First tslint stable rules version
+
+## 4.0.0
+
+- disabled rule newline-before-return
+- disabled rule newline-per-chained-call
+- disabled rule newline-before-return
+- disabled rule newline-per-chained-call
