@@ -22,3 +22,4 @@
 - disabled rule newline-per-chained-call
 - disabled rule newline-before-return
 - disabled rule newline-per-chained-call
+- disabled rule match-default-export-name
