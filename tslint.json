@@ -51,7 +51,7 @@
     "no-suspicious-comment": false,
     "no-use-before-declare": true,
     "object-literal-sort-keys": false,
-    "object-shorthand": {
+    "object-literal-shorthand": {
       "severity": "warning"
     },
     "quotemark": [ true, "single" ],
