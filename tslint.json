@@ -41,6 +41,9 @@
     ],
     "newline-before-return": false,
     "newline-per-chained-call": false,
+    "no-console": {
+      "severity": "warning"
+    },
     "no-inferrable-types": false,
     "no-non-null-assertion": true,
     "no-null-keyword": false,
@@ -48,6 +51,9 @@
     "no-suspicious-comment": false,
     "no-use-before-declare": true,
     "object-literal-sort-keys": false,
+    "object-shorthand": {
+      "severity": "warning"
+    },
     "quotemark": [ true, "single" ],
     "radix": true,
     "semicolon": [ true, "always" ],
