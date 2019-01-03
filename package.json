@@ -1,6 +1,6 @@
 {
   "name": "tslint-viralize",
-  "version": "4.0.0-beta.3",
+  "version": "4.0.0-beta.4",
   "description": "Tslint rules to enforce Viralize standards and best practices during development of typescript project in Viralize",
   "repository": {
     "type": "git",
