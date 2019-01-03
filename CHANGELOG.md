@@ -9,6 +9,7 @@
 - disabled rule match-default-export-name
 - set warning for object-literal-shorthand
 - custom typedef rule
+- max-line-length to 100 chars
 
 ## 3.0.0
 
