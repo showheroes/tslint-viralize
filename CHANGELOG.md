@@ -7,6 +7,7 @@
 - disabled rule mocha-no-side-effect-code
 - disabled rule mocha-unneeded-done
 - disabled rule no-big-function
+- disabled rule max-func-body-length
 
 ## 4.0.0
 
