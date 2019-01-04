@@ -7,6 +7,8 @@
     "tslint-sonarts"
   ],
   "rules": {
+    "chai-prefer-contains-to-index-of": false,
+    "chai-vague-errors": false,
     "comment-format": [ true, "check-space" ],
     "deprecation": {
       "severity": "warn"
@@ -39,6 +41,8 @@
         "private-instance-method"
       ]}
     ],
+    "mocha-no-side-effect-code": false,
+    "mocha-unneeded-done": false,
     "newline-before-return": false,
     "newline-per-chained-call": false,
     "no-console": {

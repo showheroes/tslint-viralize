@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.0.0
+
+- disabled rule chai-prefer-contains-to-index-of
+- disabled rule chai-vague-errors
+- disabled rule mocha-no-side-effect-code
+- disabled rule mmocha-unneeded-done
+
 ## 4.0.0
 
 - disabled rule newline-before-return
