@@ -45,6 +45,7 @@
     "mocha-unneeded-done": false,
     "newline-before-return": false,
     "newline-per-chained-call": false,
+    "no-big-function": false,
     "no-console": {
       "severity": "warning"
     },

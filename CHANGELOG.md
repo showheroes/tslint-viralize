@@ -5,7 +5,8 @@
 - disabled rule chai-prefer-contains-to-index-of
 - disabled rule chai-vague-errors
 - disabled rule mocha-no-side-effect-code
-- disabled rule mmocha-unneeded-done
+- disabled rule mocha-unneeded-done
+- disabled rule no-big-function
 
 ## 4.0.0
 
