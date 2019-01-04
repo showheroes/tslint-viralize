@@ -10,6 +10,7 @@
 - set warning for object-literal-shorthand
 - custom typedef rule
 - max-line-length to 100 chars
+- disabled no-http-string rule
 
 ## 3.0.0
 
