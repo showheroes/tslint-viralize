@@ -8,6 +8,7 @@
 - disabled rule mocha-unneeded-done
 - disabled rule no-big-function
 - disabled rule max-func-body-length
+- no-implicit-dependencies looks also for devDependencies
 
 ## 4.0.0
 
