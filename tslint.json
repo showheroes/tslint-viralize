@@ -46,6 +46,7 @@
     "mocha-unneeded-done": false,
     "newline-before-return": false,
     "newline-per-chained-call": false,
+    "no-backbone-get-set-outside-model": false,
     "no-implicit-dependencies": [ true, "dev" ],
     "no-big-function": false,
     "no-console": {

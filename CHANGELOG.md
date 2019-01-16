@@ -9,6 +9,7 @@
 - disabled rule no-big-function
 - disabled rule max-func-body-length
 - no-implicit-dependencies looks also for devDependencies
+- disabled rule no-backbone-get-set-outside-model
 
 ## 4.0.0
 
