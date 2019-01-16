@@ -10,6 +10,7 @@
 - disabled rule max-func-body-length
 - no-implicit-dependencies looks also for devDependencies
 - disabled rule no-backbone-get-set-outside-model
+- disabled rule insecure-random
 
 ## 4.0.0
 

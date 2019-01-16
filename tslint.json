@@ -15,6 +15,7 @@
     },
     "import-name": false,
     "indent": [ true, "spaces", 4 ],
+    "insecure-random": false,
     "interface-over-type-literal": true,
     "interface-name": false,
     "jsdoc-format": [ true, "check-multiline-start" ],
