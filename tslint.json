@@ -64,6 +64,7 @@
     "object-literal-shorthand": {
       "severity": "warning"
     },
+    "promise-function-async": false,
     "quotemark": [ true, "single" ],
     "radix": true,
     "semicolon": [ true, "always" ],

@@ -11,6 +11,7 @@
 - no-implicit-dependencies looks also for devDependencies
 - disabled rule no-backbone-get-set-outside-model
 - disabled rule insecure-random
+- disabled rule promise-function-async
 
 ## 4.0.0
 
