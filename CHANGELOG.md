@@ -12,6 +12,7 @@
 - disabled rule no-backbone-get-set-outside-model
 - disabled rule insecure-random
 - disabled rule promise-function-async
+- added rule lines-between-class-members
 
 ## 4.0.0
 
