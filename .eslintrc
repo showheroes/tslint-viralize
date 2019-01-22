@@ -1,0 +1,45 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "extends": [
+        "eslint:recommended",
+        "airbnb"
+    ],
+    "parser": "babel-eslint",
+    "env": {
+        "commonjs": true,
+        "node": true,
+        "jest": true,
+        "es6": true
+    },
+    "rules": {
+        "comma-dangle": ["error", "never"],
+        "indent": ["error", 4, {"SwitchCase": 1}],
+        "linebreak-style": ["error", "unix"],
+        "no-console": "warn",
+        "no-debugger": "warn",
+        "operator-linebreak": "off",
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "func-names": ["error", "as-needed"],
+        "function-paren-newline": "off",
+        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+        "no-underscore-dangle": "off",
+        "object-shorthand": "warn",
+        "radix": ["error", "as-needed"],
+        "space-before-function-paren": ["error", "always"],
+        "curly": ["error", "all"],
+        "arrow-parens": ["error", "always"],
+        "arrow-body-style": "off",
+        "max-len": [
+            "error",
+            {
+            "code": 80,
+            "tabWidth": 4,
+            "ignorePattern": "^import|^export|^const .* = require('.*');$|'.*'[;|,]?$|`.*`[;|,]?$"
+            }
+        ]
+    }
+}

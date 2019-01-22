@@ -1,14 +1,11 @@
 {
   "name": "tslint-viralize",
-  "version": "2.0.1",
+  "version": "5.0.0",
   "description": "Tslint rules to enforce Viralize standards and best practices during development of typescript project in Viralize",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Viralize/tslint-viralize.git"
   },
-  "author": "Lorenzo Bugiani (lorenzo.bugiani@viralize.com)",
-  "license": "MIT",
-  "main": "tslint.json",
   "keywords": [
     "tslint",
     "tslintconfig",
@@ -16,17 +13,28 @@
     "viralize",
     "typescript"
   ],
+  "author": "Lorenzo Bugiani (lorenzo.bugiani@viralize.com)",
+  "license": "MIT",
+  "main": "tslint.json",
   "scripts": {
     "release:major": "node ./scripts/major",
     "release:minor": "node ./scripts/minor",
     "release:patch": "node ./scripts/patch"
   },
   "peerDependencies": {
-    "tslint": "^5.11.0"
+    "tslint": "^5.12.1",
+    "tslint-lines-between-class-members": "^1.3.1",
+    "tslint-microsoft-contrib": "^6.0.0",
+    "tslint-sonarts": "^1.9.0"
   },
   "devDependencies": {
-    "tslint": "^5.11.0",
-    "release-it": "^8.2.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "release-it": "^9.3.0",
     "semver": "^5.6.0"
   }
 }

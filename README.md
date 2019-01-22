@@ -32,4 +32,14 @@ Tslint rules to enforce Viralize standards and best practices during development
   install-peerdeps --dev tslint-viralize
   ```
 
-2. Add `"extends": "tslint-viralize"` to your tslint.json.
+2. Add to your tslint.json:
+
+```json
+"extends": "tslint-viralize",
+"rulesDirectory": [
+  "node_modules/tslint-microsoft-contrib",
+  "node_modules/tslint-lines-between-class-members"
+]
+```
+
+Some of the rules require type information. So in order to provide as much value as possible run TSLint with [type-checker](https://palantir.github.io/tslint/usage/type-checking/)
