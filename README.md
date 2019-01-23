@@ -37,8 +37,7 @@ Tslint rules to enforce Viralize standards and best practices during development
 ```json
 "extends": "tslint-viralize",
 "rulesDirectory": [
-  "node_modules/tslint-microsoft-contrib",
-  "node_modules/tslint-lines-between-class-members"
+  "node_modules/tslint-microsoft-contrib"
 ]
 ```
 

@@ -19,7 +19,6 @@
     "interface-over-type-literal": true,
     "interface-name": false,
     "jsdoc-format": [ true, "check-multiline-start" ],
-    "lines-between-class-members": [true, 1],
     "linebreak-style": [ true, "LF" ],
     "match-default-export-name": false,
     "max-classes-per-file": false,
@@ -84,6 +83,7 @@
       "multiline": "never",
       "singleline": "never"
     }],
+    "unified-signatures": false,
     "variable-name": [
       true,
       "ban-keywords",

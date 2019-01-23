@@ -1,5 +1,10 @@
 # Changelog
 
+## 6.0.0
+
+- removed rule lines-between-class-members
+- disabled rule unified-signatures
+
 ## 5.0.0
 
 - disabled rule chai-prefer-contains-to-index-of
