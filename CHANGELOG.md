@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.0
+
+- disabled rule no-unnecessary-qualifier
+
 ## 6.0.0
 
 - removed rule lines-between-class-members
