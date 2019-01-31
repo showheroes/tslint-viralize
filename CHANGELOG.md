@@ -1,5 +1,9 @@
 # Changelog
 
+## 8.0.0
+
+- modified max-line-length in order to ignore comments which contain an URL
+
 ## 7.0.0
 
 - disabled rule no-unnecessary-qualifier
