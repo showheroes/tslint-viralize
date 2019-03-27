@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.0.0
+
+- modified function-name in order to allow lower case static methods names
+
 ## 8.0.0
 
 - modified max-line-length in order to ignore comments which contain an URL
