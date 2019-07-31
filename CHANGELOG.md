@@ -6,7 +6,7 @@
 
 ## 11.0.0
 
-- used legacy version of microsoft rules'
+- used legacy version of microsoft rules
 
 ## 10.0.0
 
@@ -22,7 +22,7 @@
 - modified function-name in order to allow lower case static methods names
 
 ## 8.0.0
-s
+
 - modified max-line-length in order to ignore comments which contain an URL
 
 ## 7.0.0
