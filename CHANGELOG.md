@@ -1,5 +1,14 @@
 # Changelog
 
+## 10.0.0
+
+- updated dependencies
+- better ignore-pattern for max-line-lenght. Now it exclude also string literals
+- disabled rule no-angle-bracket-type-assertion
+- disabled deprecated rule no-use-before-declare
+- explicit enforcement for use "T[]" as declaration of an array of type T (instead of Array<T>)
+- enabled only-arrow-functions rule
+
 ## 9.0.0
 
 - modified function-name in order to allow lower case static methods names
