@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.0.0
+
+- better typedef-whitespace rule
+
 ## 11.0.0
 
 - used legacy version of microsoft rules'
