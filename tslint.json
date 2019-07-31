@@ -3,7 +3,7 @@
   "extends": [
     "tslint:recommended",
     "tslint-sonarts",
-    "tslint-microsoft-contrib/recommended"
+    "tslint-microsoft-contrib/legacy"
   ],
   "rules": {
     "array-type": [true, "array"],
