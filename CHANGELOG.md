@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.0.1
+
+- removed line containing only Regexp from max-line-lenght rule
+
 ## 12.0.0
 
 - better typedef-whitespace rule
