@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.0.0
+
+- removed "arrow-call-signature" from "typedef" rule
+
 ## 12.0.1
 
 - removed line containing only Regexp from max-line-lenght rule
@@ -15,7 +19,7 @@
 ## 10.0.0
 
 - updated dependencies
-- better ignore-pattern for max-line-lenght. Now it exclude also string literals
+- better ignore-pattern for max-line-length. Now it exclude also string literals
 - disabled rule no-angle-bracket-type-assertion
 - disabled deprecated rule no-use-before-declare
 - explicit enforcement for use "T[]" as declaration of an array of type T (instead of Array<T>)
